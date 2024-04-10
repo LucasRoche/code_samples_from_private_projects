@@ -1,4 +1,5 @@
-This repository contains sample code from various private projects I was working on at Linkednutri/myNumea.
+This repository contains sample code from various private projects I was working on at Linkednutri/myNumea. 
+Mainly from the main application (embedded human-computer interface, coded in Qt C++ and running on Yocto linux). Total app is 200 files (without headers) and ~50000 lines of code according to cloc.
 
 The selected files were selected from varied fonctionalities (IHM views, Log storage, I2C low-level implementation, data analysis), and information that could reveal critical information about the company were removed for safety. Sample files from the project documentation that I redacted are also included.
 
