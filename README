@@ -1,0 +1,10 @@
+This repository contains sample code from various private projects I was working on at Linkednutri/myNumea.
+
+The selected files were selected from varied fonctionalities (IHM views, Log storage, I2C low-level implementation, data analysis), and information that could reveal critical information about the company were removed for safety. Sample files from the project documentation that I redacted are also included.
+
+List of files:
+* i2cio.cpp/i2cio.h: implementation of low-level I2C I/O using the linux i2c-dev library. I2C was used to interact with EEPROM chips.
+* homeview.cpp/homeview.h: View class of the MVC handling the home page of the touch screen application.
+* logparser.cpp/logparser.h: class used to handle logging, log files storages and log file synchronisation in the application
+* Logs.md/Page-management-module.md: documentations files for the logging system and MVC architecture. Documentation was written for github wiki
+* dataExtractionPdf.py: data analysis file used to retrieve user information from the database and format it to generate personalized pdf reports using HTML, matplotlib and pdf conversion.
